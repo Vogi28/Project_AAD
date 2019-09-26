@@ -1,27 +1,2 @@
-.col_principale{
-	background: #499C21;
-	height:100px;
-	width:100%;
-}
-
-.col_fond{
-	background: #28650B;
-	height:100px;
-	width:100%;
-}
-.col_fond_selected{
-	background: #467530;
-	height:100px;
-	width:100%;
-}
-.col_claire{
-	background: #91CE74;
-	height:100px;
-	width:100%;
-}
-.col_jaune{
-	background: #F5CD3D;
-	height:100px;
-	width:100%;
-
-}
+@import url(styleBig.css) screen and (min-width:761px);
+@import url(styleSmall.css) screen and (max-width:760px);
