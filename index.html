@@ -1,17 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Actions Associations Déchets</title>
 </head>
 <body>
-	<nav>
-		
-	</nav>
-<!--------------------- ACTIONS --------------------->		
-	<article>
+    <header>
+        <div id="wrap">
+            <div id="wrapBurger">
+                <img src="burgermenu.png">
+            </div>
+            <div id="wrapList">
+                <ul> 
+                    <li><a href="#" target:"_self">Actions</a></li>
+                    <li><a href="#" target:"_self">Associations</a></li>
+                    <li><a href="#" target:"_self">Gestion Dechetes</a></li>
+                    <li><a href="#" target:"_self">Point Collect</a></li>
+                    <li><a href="#" target:"_self">Contact</a></li>
+                    </ul>
+            </div>
+        </div>
+        <a herf="#" id="imgBig"><img src="logo_AAD_vert.png"></a>
+        <h1>Action Association Dechetes</h1>
+        <nav class="menurow">
+            <ul>
+                <li><a href="#" target:"_self">Actions</a></li>
+                <li><a href="#" target:"_self">Associations</a></li>
+                <li><a href="#" target:"_self">Gestion Dechetes</a></li>
+                <li><a href="#" target:"_self">Point Collect</a></li>
+                <li><a href="#" target:"_self">Contact</a></li>
+            </ul>
+        </nav>
 
-	</article>
 
+
+    </header>
+
+<!-------------------------------------------- Vo Vinh>
+
+    <section class="banner">
+        <!-- <img src="" alt=""> -->
+        <p class="img"> </p>
+    </section>
+    <section>
+        <figure class="actions_container">
+            <a href="#"><img class="actions_item" title="green" src="green.jpg" alt="" width="300px" height="auto">
+                <figcaption>Green1</figcaption>
+            </a>
+
+            <a href="#"><img class="actions_item" title="green" src="green.jpg" alt="" width="300px" height="auto">
+                <figcaption>Green2</figcaption>
+            </a>
+
+            <a href="#"><img class="actions_item" title="green" src="green.jpg" alt="" width="300px" height="auto">
+                <figcaption>Green3</figcaption>
+            </a>
+        </figure>
+    </section>
 <!--------------------- ASSOCIATIONS --------------------->		
 	<article>
 		<ul class="Association_ul">
@@ -41,14 +88,31 @@
 			</li>
 		</ul>
 	</article>
-
-<!--------------------- GESTIONS DECHETS --------------------->		
-	<article>
-		
-	</article>
-
+<!------------------------------- Gestion des déchets. -------->
+  <section>
+        <div>
+            <h2>Gestion des déchets</h2>
+            <div class="img_txt">
+                <img src="green.jpg" alt="" width="600px" height="auto">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In saepe tempore eos distinctio molestiae
+                    sapiente
+                    accusantium excepturi, aliquam doloremque non ut suscipit obcaecati laborum sed reiciendis at quis
+                    vero?
+                    Vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sunt provident libero nam quasi
+                    dolorum
+                    porro earum voluptatum aliquam dicta laborum at ab esse modi nulla officiis, eligendi, sapiente
+                    corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consequuntur
+                    porro.
+                    Ipsa
+                    nobis accusamus facere suscipit numquam praesentium iste illo? Omnis, nam officia architecto rem a
+                    nobis
+                    debitis quod ea.
+                </p>
+            </div>
+    </section>
 <!--------------------- POINTS DE COLLECTE --------------------->		
-	<article>
+	<section>
 		<ul class="Collecte_ul">
 			<li class="Collecte_li">
 				<ul class="Collecte_articles_ul">Métaux
@@ -84,12 +148,46 @@
 				<img src="images/carte.jpg">
 			</li>
 		</ul>
-	</article>
+	</section>
+<!-------------------------------------------------------- FORMULAIRE --------->
 
-<!--------------------- FOOTER --------------------->		
-	<footer>
-		
-	</footer>
+    <form action="">
+        <h2>Contact</h2>
+        <label id="nom">Nom</label>
+        <input id="nom" type="text">
+        <label id="email">Email</label>
+        <input id="email" type="Email">
+        <br>
+        <label id="text">Messages:</label>
+        <textarea wrap="on" rows="10" cols="30" minlength="10" maxlength="30"1></textarea>
+    </form>
 
+    <footer>
+        <ul>
+            <li>Actions</li>
+            <ul>
+                <li><a href="#" target:"_self">Action 01</a></li>
+                <li><a href="#" target:"_self">Action 02</a></li>
+                <li><a href="#" target:"_self">Action 03</a></li>
+            </ul>
+        </ul>
+        <ul>
+            <li>Associations</li>
+            <ul>
+                <li><a href="#" target:"_self">Assoiation 01</a></li>
+                <li><a href="#" target:"_self">Assoiation 02</a></li>
+                <li><a href="#" target:"_self">Assoiation 03</a></li>
+            </ul>
+        </ul>
+        <ul>
+            <li><a href="#" target:"_self">Gestion dechetes</a></li>
+            <li><a href="#" target:"_self">Points collectes</a></li>
+        </ul>
+        <ul>
+            <img src="logo_AAD_blanc.png">
+            <p> Action Association Dechetes</p>
+            <p>3 Rue des échasses BP 90070 - 67061 STRASBOURG CEDEX 03 88 22 70 90</p>
+        </ul>
+      </footer>
 </body>
 </html>
