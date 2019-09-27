@@ -100,10 +100,18 @@ footer ul li{
 /*		justify-content: space-around;
 		text-align: center;
 */}
+@media screen and (max-width: 961px) {
+    html {
+        width: 95%;
+    }
+
+@media screen and (max-width: 768px) {
+    html {
+        width:100%;
+    }
 
 @media screen and (max-width: 430px) {
 	.Collecte_carte{
 		width: 95%;
 		height: auto;
-
 }
