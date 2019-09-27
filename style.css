@@ -1,13 +1,18 @@
-* {
+@import url(styleBig.css) screen and (min-width:761px);
+@import url(styleSmall.css) screen and (max-width:760px);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+    margin: 0 auto;
+    font-family: Roboto, 'Sans-serif';
+}
+/* ========================= Vo Vinh - Grand */ 
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-}
 
 .banner {
     display: flex;
@@ -41,36 +46,7 @@ figcaption {
     text-align: center;
 }
 
-.assos_container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.assos {
-    padding: 100px;
-    margin: 50px 10px;
-    background-color: #499c21;
-}
-
 .img_txt {
     display: flex;
 }
-
-.img_left {
-    float: left;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: #f5cd3d;
-    width: 90%;
-    padding: 50px;
-    margin: 10px;
-}
+ */

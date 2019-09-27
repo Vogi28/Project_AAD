@@ -1,19 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACTIONS ASSOCIATIONS DECHETS</title>
     <link rel="stylesheet" href="style.css">
-</head>
 
+    <title>Actions Associations Déchets</title>
+</head>
 <body>
     <header>
-        <Nav>
-            <p>La nav barre</p>
-        </Nav>
+        <div id="wrap">
+            <div id="wrapBurger">
+                <img src="burgermenu.png">
+            </div>
+            <div id="wrapList">
+                <ul> 
+                    <li><a href="#" target:"_self">Actions</a></li>
+                    <li><a href="#" target:"_self">Associations</a></li>
+                    <li><a href="#" target:"_self">Gestion Dechetes</a></li>
+                    <li><a href="#" target:"_self">Point Collect</a></li>
+                    <li><a href="#" target:"_self">Contact</a></li>
+                    </ul>
+            </div>
+        </div>
+        <a herf="#" id="imgBig"><img src="logo_AAD_vert.png"></a>
+        <h1>Action Association Dechetes</h1>
+        <nav class="menurow">
+            <ul>
+                <li><a href="#" target:"_self">Actions</a></li>
+                <li><a href="#" target:"_self">Associations</a></li>
+                <li><a href="#" target:"_self">Gestion Dechetes</a></li>
+                <li><a href="#" target:"_self">Point Collect</a></li>
+                <li><a href="#" target:"_self">Contact</a></li>
+            </ul>
+        </nav>
+
+
+
     </header>
+
+<!-------------------------------------------- Vo Vinh>
+
     <section class="banner">
         <!-- <img src="" alt=""> -->
         <p class="img"> </p>
@@ -33,18 +59,37 @@
             </a>
         </figure>
     </section>
-    <section class="assos_container">
-        <div class="assos">
-            <p>Assos</p>
-        </div>
-        <div class="assos">
-            <p>Assos</p>
-        </div>
-        <div class="assos">
-            <p>Assos</p>
-        </div>
-    </section>
-    <section>
+<!--------------------- ASSOCIATIONS --------------------->		
+	<article>
+		<ul class="Association_ul">
+			<li class="Association_li">
+				<div>
+					<a href="../Association1.html">
+						<img src="img_asso1.jpg" id="img_asso1" alt="Association n°1">
+						Association 1
+					</a>
+				</div>	
+			</li>
+			<li class="Association_li">
+				<div>
+					<a href="../Association2.html">
+						<img src="img_asso2.jpg" id="img_asso2" alt="Association n°2">
+						Association 2
+					</a>
+				</div>	
+			</li>
+			<li class="Association_li">
+				<div>
+					<a href="../Association3.html">
+						<img src="img_asso3.jpg" id="img_asso3" alt="Association n°3">
+						Association 3
+					</a>
+				</div>	
+			</li>
+		</ul>
+	</article>
+<!------------------------------- Gestion des déchets. -------->
+  <section>
         <div>
             <h2>Gestion des déchets</h2>
             <div class="img_txt">
@@ -66,43 +111,83 @@
                 </p>
             </div>
     </section>
-    <section class="collect_point">
-        <h2>Points de collecte</h2>
-        <div class="img_txt">
-            <img src="green.jpg" alt="" width="600px" height="auto">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In saepe tempore eos distinctio molestiae
-                sapiente
-                accusantium excepturi, aliquam doloremque non ut suscipit obcaecati laborum sed reiciendis at quis vero?
-                Vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sunt provident libero nam quasi
-                dolorum
-                porro earum voluptatum aliquam dicta laborum at ab esse modi nulla officiis, eligendi, sapiente
-                corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consequuntur porro.
-                Ipsa
-                nobis accusamus facere suscipit numquam praesentium iste illo? Omnis, nam officia architecto rem a nobis
-                debitis quod ea.
-            </p>
-        </div>
-    </section>
-    <section class="form">
-        <h2>Contact Us</h2>
-        <form action="">
-            <p><input type="text" placeholder="A"></p>
-            <p><input type="text" placeholder="B"></p>
-            <p><input type="text" placeholder="C"></p>
-            <p><input type="text" placeholder="D"></p>
-        </form>
-    </section>
-    <footer>
-        <div class="footer">
-            <p>A</p>
-            <p>A</p>
-            <p>A</p>
-            <p>A</p>
-            <p>A</p>
-            <p>A</p>
-        </div>
-    </footer>
-</body>
+<!--------------------- POINTS DE COLLECTE --------------------->		
+	<section>
+		<ul class="Collecte_ul">
+			<li class="Collecte_li">
+				<ul class="Collecte_articles_ul">Métaux
+					<li class="Collecte_articles_li">Point de collecte n°1
+					</li>
+					<li class="Collecte_articles_li">Point de collecte n°2
+					</li>
+					<li class="Collecte_articles_li">Point de collecte n°3
+					</li>
+				</ul>
+			</li>
+			<li class="Collecte_li">
+				<ul class="Collecte_articles_ul">Verre & cartons
+					<li class="Collecte_articles_li">Point de collecte n°1
+					</li>
+					<li class="Collecte_articles_li">Point de collecte n°2
+					</li>
+					<li class="Collecte_articles_li">Point de collecte n°3
+					</li>
+				</ul>
+			</li>
+			<li class="Collecte_li">
+				<ul class="Collecte_articles_ul">Déchets ménagers
+					<li class="Collecte_articles_li">Point de collecte n°1
+					</li>
+					<li class="Collecte_articles_li">Point de collecte n°2
+					</li>
+					<li class="Collecte_articles_li">Point de collecte n°3
+					</li>
+				</ul>
+			</li>
+			<li class="Collecte_li">
+				<img src="images/carte.jpg">
+			</li>
+		</ul>
+	</section>
+<!-------------------------------------------------------- FORMULAIRE --------->
 
+    <form action="">
+        <h2>Contact</h2>
+        <label id="nom">Nom</label>
+        <input id="nom" type="text">
+        <label id="email">Email</label>
+        <input id="email" type="Email">
+        <br>
+        <label id="text">Messages:</label>
+        <textarea wrap="on" rows="10" cols="30" minlength="10" maxlength="30"1></textarea>
+    </form>
+
+    <footer>
+        <ul>
+            <li>Actions</li>
+            <ul>
+                <li><a href="#" target:"_self">Action 01</a></li>
+                <li><a href="#" target:"_self">Action 02</a></li>
+                <li><a href="#" target:"_self">Action 03</a></li>
+            </ul>
+        </ul>
+        <ul>
+            <li>Associations</li>
+            <ul>
+                <li><a href="#" target:"_self">Assoiation 01</a></li>
+                <li><a href="#" target:"_self">Assoiation 02</a></li>
+                <li><a href="#" target:"_self">Assoiation 03</a></li>
+            </ul>
+        </ul>
+        <ul>
+            <li><a href="#" target:"_self">Gestion dechetes</a></li>
+            <li><a href="#" target:"_self">Points collectes</a></li>
+        </ul>
+        <ul>
+            <img src="logo_AAD_blanc.png">
+            <p> Action Association Dechetes</p>
+            <p>3 Rue des échasses BP 90070 - 67061 STRASBOURG CEDEX 03 88 22 70 90</p>
+        </ul>
+      </footer>
+</body>
 </html>
