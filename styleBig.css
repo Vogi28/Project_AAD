@@ -64,3 +64,48 @@ footer{
 footer ul li{
     list-style: none;
 }
+
+.banner {
+    display: flex;
+    justify-content: center;
+    width: 961px;
+}
+
+.img {
+    display: flex;
+    background-color: #499c21;
+    width: 90%;
+    padding: 100px;
+    margin: 0 0 50px 0;
+}
+
+figure {
+    text-decoration: none;
+
+}
+
+.actions_container {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.actions_item {
+    text-decoration: none;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.img_txt {
+    display: flex;
+}
+
+@media screen and (min-width: 961px) {
+    html {
+        width: 961px;
+    }
+
+}
+

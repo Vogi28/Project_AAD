@@ -87,3 +87,31 @@ footer{
 footer ul li{
   list-style: none;
 }
+
+
+.Association_ul{
+		display: block;
+		margin-left: : auto;
+		margin-right: : auto;
+}
+
+.Association_li{
+	width:33%;
+/*		justify-content: space-around;
+		text-align: center;
+*/}
+@media screen and (max-width: 961px) {
+    html {
+        width: 95%;
+    }
+
+@media screen and (max-width: 768px) {
+    html {
+        width:100%;
+    }
+
+@media screen and (max-width: 430px) {
+	.Collecte_carte{
+		width: 95%;
+		height: auto;
+}

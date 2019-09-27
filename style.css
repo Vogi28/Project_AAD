@@ -1,64 +1,13 @@
 @import url(styleBig.css) screen and (min-width:761px);
 @import url(styleSmall.css) screen and (max-width:760px);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-/* ========================= Vo Vinh - Grand */ 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html{
+    margin: 0 auto;
+    font-family: Roboto, 'Sans-serif';
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-}
 
-.banner {
-    display: flex;
-    justify-content: center;
-}
-
-.img {
-    display: flex;
-    background-color: #499c21;
-    width: 90%;
-    padding: 100px;
-    margin: 0 0 50px 0;
-}
-
-figure {
-    text-decoration: none;
-
-}
-
-.actions_container {
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-}
-
-.actions_item {
-    text-decoration: none;
-}
-
-figcaption {
-    text-align: center;
-}
-
-.assos_container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.assos {
-    padding: 100px;
-    margin: 50px 10px;
-    background-color: #499c21;
-}
-
-.img_txt {
-    display: flex;
-}
 
 .img_left {
     float: left;
@@ -167,12 +116,40 @@ footer {
 		margin-right: : auto;
 	}
 
-	.Association_li{
-		width:33%;
-/*		justify-content: space-around;
-		text-align: center;
-*/	}
-@media screen and (max-width: 430px) {
+/*---------------------------------- ASSOCIATIONS ----------------------------------------*/
+.Association_ul{
+	list-style: none;
+	display: flex;
+	align-content: center;
+}
+.Association_li{
+	width:33%;
+	justify-content: space-around;
+	flex-direction: : column;
+	text-align: center;
+}
+/*----------------------------------- COLLECTES -----------------------------------------*/
+
+.Collecte_ul{
+
+}
+
+.Collecte_li{
+
+}
+
+.Collecte_articles_ul{
+
+}
+
+.Collecte_articles_li{
+
+}
+.Collecte_carte{
+	width:400px;
+	height: 300px
+
+}@media screen and (max-width: 430px) {
 	.Collecte_carte{
 		width: 95%;
 		height: auto;
