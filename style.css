@@ -78,3 +78,106 @@ footer {
     padding: 50px;
     margin: 10px;
 }
+
+.col_principale{
+	background: #499C21;
+	height:100px;
+	width:100%;
+}
+
+.col_fond{
+	background: #28650B;
+	height:100px;
+	width:100%;
+}
+.col_fond_selected{
+	background: #467530;
+	height:100px;
+	width:100%;
+}
+.col_claire{
+	background: #91CE74;
+	height:100px;
+	width:100%;
+}
+.col_jaune{
+	background: #F5CD3D;
+	height:100px;
+	width:100%;
+
+}
+
+
+/*---------------------------------- ASSOCIATIONS ----------------------------------------*/
+.Association_ul{
+	list-style: none;
+	display: flex;
+	align-content: center;
+}
+.Association_li{
+	width:33%;
+	justify-content: space-around;
+	flex-direction: : column;
+	text-align: center;
+}
+/*----------------------------------- COLLECTES -----------------------------------------*/
+
+.Collecte_ul{
+
+}
+
+.Collecte_li{
+
+}
+
+.Collecte_articles_ul{
+
+}
+
+.Collecte_articles_li{
+
+}
+.Collecte_carte{
+	width:400px;
+	height: 300px
+
+}
+/*-------------------------------------------------------------------*/
+/*---                                                             ---*/
+/*---                       MEDIA QUERIES                         ---*/
+/*---                                                             ---*/
+/*-------------------------------------------------------------------*/
+
+
+@media screen and (min-width: 961px) {
+    html {
+        width: 961px;
+    }
+
+}
+@media screen and (max-width: 961px) {
+    html {
+        width: 95%;
+    }
+
+@media screen and (max-width: 770px) {
+	.Association_ul{
+		display: block;
+		margin-left: : auto;
+		margin-right: : auto;
+	}
+
+	.Association_li{
+		width:33%;
+/*		justify-content: space-around;
+		text-align: center;
+*/	}
+@media screen and (max-width: 430px) {
+	.Collecte_carte{
+		width: 95%;
+		height: auto;
+
+}
+
+
+}
